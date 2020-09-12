@@ -1,0 +1,114 @@
+/*=============================================
+	SammāPaññā Countdown CSS Code
+	Developed & Sponsored by SarbaNanda Bhikkhu
+=============================================*/
+.sp-countdown-container {
+	background:#b6e8ff;
+	background-attachment:scroll;
+	background-position:center;
+	background-image:url("https://lh3.googleusercontent.com/RfVQaQglgHF6P23B171OuL0SWEx9_lRZdqruAAseL_Qj5VH0OI0GBja1_qplh8bW2085IR4QfVzaz7KYsg=w441-h660-rw");
+	padding:15px;
+	color:#1d3357;
+	width:100%;
+	min-width:320px;
+	max-width:480px;
+	box-sizing:border-box;
+	margin:0 auto;
+	border-radius:10px;
+	box-shadow:0 4px 15px -8px rgba(0, 0, 0, 0.6);
+}
+.sp-countdown-header {
+	width:100%;
+	height:130px;
+}
+.sp-countdown-avatar {
+	width:120px;
+	height:120px;
+	float:left;
+}
+.sp-countdown-heading-1 {
+	width:45%;
+	margin:0;
+	margin-top:25px;
+	float:right;
+	font-size:30pt;
+	line-height:1;
+	text-align:center;
+	display:block;
+}
+.sp-countdown-heading-2 {
+	width:45%;
+	float:right;
+	margin:0;
+	font-size:13pt;
+	text-align:center;
+}
+.sp-countdown-heading {
+	text-align:center;
+	font-size:16pt;
+}
+.sp-countdown-details {
+	text-align:center;
+	font-size:13pt;
+}
+.sp-countdown-timer {
+	background:#1d3357;
+	color:#f1faee;
+	padding:15px;
+	display:flex;
+	justify-content:space-between;
+	text-align:right;
+	border-radius:10px;
+}
+.sp-countdown-number {
+	font-size: 25pt;
+	font-weight: bold;
+}
+.sp-countdown-unit {
+	color:#a8dadc;
+	font-size:9pt;
+}
+.sp-countdown-sponsor {
+	color:#1d3357;
+	font-size:9pt;
+	text-align:right;
+}
+.sp-countdown-sponsor a {
+	color:#2196F3;
+	text-decoration:;
+}
+.sp-countdown-readmore-button {
+	position:relative;
+	overflow:hidden;
+	background:#dc2e2e;
+	display:block;
+	margin:5% -15px -15px -15px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+}
+.sp-countdown-readmore-button::after {
+	content:"";
+	position:absolute;
+	width:50px;
+	height:75px;
+	background:#1d3357;
+	left:-50px;
+	top:-15px;
+	transform:rotate(25deg);
+	opacity:1;
+	transition:500ms;
+}
+.sp-countdown-readmore-button:hover::after {
+	background:#1d3357;
+	left:100%;
+	opacity:1;
+}
+.sp-countdown-readmore-btn {
+	text-decoration:none;
+	text-align:center;
+	font-weight:bold;
+	padding:15px 30px;
+	display:block;
+	color:#f1faee;
+	background:transparent;
+}
